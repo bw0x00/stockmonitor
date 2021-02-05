@@ -1,3 +1,6 @@
+# do not add files with secrets
+iex.conf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
