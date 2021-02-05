@@ -1,4 +1,6 @@
 from iexfinance.stocks import Stock
 
-a = Stock("AAPL", token="pk_5bc5ea10ae99491f91ab7b8a7c75c7f4")
+
+a = Stock("AAPL", token="Tpk_2fd9978373f24564a5a786757629c422")
+a.version='iexcloud-sandbox'
 print(a.get_quote())
