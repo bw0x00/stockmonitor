@@ -44,7 +44,8 @@ def main():
     print("StockMonitor " + __version__ + " by " + __author__ + "\n")
     new_dataframe = stock_datasource.get_quote()
 
-    ticker = new_dataframe[['companyName', 'latestPrice','volume','open', 'close', 'isUSMarketOpen']]
+    ticker = new_dataframe[['companyName', 'latestPrice', 'volume', 'open',
+                            'close', 'isUSMarketOpen']]
 
     print(ticker)
 
